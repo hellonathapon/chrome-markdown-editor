@@ -12,7 +12,10 @@
   },
   "background": {
     "persistent": false,
-    "scripts": ["event.js"]
+    "scripts": ["js/event.js"]
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
   },
   "options_page": "options.html",
   "browser_action": {
